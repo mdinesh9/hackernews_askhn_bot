@@ -5,7 +5,7 @@ import re
 import numpy as np
 import pandas as pd
 
-raw_data = pd.read_("./data/processed/training_data copy.").drop_duplicates().fillna("This is None")
+raw_data = pd.read_csv("./data/processed/training_data.csv").drop_duplicates().fillna("This is None")
 
 # write output to these files (train & test)
 train_from = open("./data/processed/train.from", "w")

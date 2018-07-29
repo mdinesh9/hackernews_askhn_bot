@@ -5,5 +5,6 @@
     -   2_create_training_data.py
 
 ### Clone nmt-chatbot repo from Daniel Kukiela
-    - git clone --branch v0.1 --recursive https://github.com/daniel-kukiela/nmt-chatbot.git    
+    - git clone --branch v0.1 --recursive https://github.com/daniel-kukiela/nmt-chatbot.git
+    - Manually install packages from requirements.txt based on your machine specifications    
 
