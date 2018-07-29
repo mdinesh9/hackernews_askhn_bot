@@ -6,5 +6,9 @@
 
 ### Clone nmt-chatbot repo from Daniel Kukiela
     - git clone --branch v0.1 --recursive https://github.com/daniel-kukiela/nmt-chatbot.git
-    - Manually install packages from requirements.txt based on your machine specifications    
+    - Manually install packages from requirements.txt based on your machine specifications  
+
+    - ### My installation notes:
+        - When I tried to run train.py inside nmt-chatbot, I got tensorflow libcublas.so.9.0: cannot open shared file error
+        - So, I installed tensorflow-gpu==1.4 using  pip3 install --upgrade tensorflow-gpu==1.4  
 
